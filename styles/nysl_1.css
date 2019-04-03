@@ -1,0 +1,119 @@
+
+
+.header_image{
+    background-image: url(../design1_image1.jpeg);
+    background-size: 100%;
+    width: 100%;
+    margin: auto;
+    height: 402px;
+    margin-top: 3%;
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    width: 96%;
+    position: relative;
+}
+
+.mainheader{
+    margin-bottom: 1px;
+
+}
+
+
+.overlaylogo {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background: black;
+    margin: 0px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 100%;
+    color: Black;
+    font-size: 20px;
+    text-align: left;  
+}
+
+.logo {
+    
+    height: 38%;
+    width: 26%;
+    right: 6%;
+    bottom: 1px;
+    /* position: relative; */
+    float: right;
+    position: relative;
+    bottom: 45px;
+}
+
+h2.ontop {
+    position: relative;
+    background: black;
+    text-align: center;
+    margin: 0px;
+
+}
+.text1{
+    padding-top: 1%;
+    margin-left: 10px;
+}
+h3{
+    margin: 0%;
+}
+
+h2 {
+    color: white;
+    margin-top: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+.main {
+    width: 100%;
+}
+.left-column {
+   width:30%;
+    display:inline-block;
+    float: left;
+    margin-left: 1%;
+    /*display: block; hello hbsdgskghg;ahdgh */
+    padding-top: 10px;
+}
+
+.right-column {
+    width: 55%;
+    display: inline-block;
+    margin-left: %;
+    position: relative;
+    bottom: 60px;
+}
+
+.about_tab{
+    display: flex;
+	margin-top: 50px;
+    text-decoration: none;
+}
+
+/* Should be removed. Only for demonstration */
+*,*.before,*.after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.about_tab {
+    
+}

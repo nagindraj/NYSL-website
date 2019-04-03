@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="./styles/nysl_3.css">
+</head>
+
+<body>
+    <header>
+
+        <div class=" header_image"> </div>
+
+        <div class="overlay">
+            <h1 style="margin-top: 1px;"> NorthSide Youth Socer league</h1>
+        </div>
+
+        <div class="overlaylogo">
+            <h2 style="margin-top: 1px;">Registration Form</h2>
+        </div>
+
+        <div class="logo">
+            <img src="./nysl_logo.png" alt="image" class="logo">
+
+        </div>
+        <section class="left-column">
+
+            <div class="about_tab home_resize">
+                <a class="tab_text color" href="Index.html">Home</a>
+                <a class="tab_text color" href="AboutNYSL.html">About</a>
+                <a class="tab_text color" href="Rules.html">Rules</a>
+                <a class="tab_text color" href="GameInfo.html">Gameinformation</a>
+                <a class="tab_text" href="#">Registration</a>
+                <a class="tab_text color" href="contact.html">Contacts</a>
+            </div>
+        </section>
+
+    </header>
+    <form action="show_data.html" method="get">
+        <div>
+            <div class="main">
+                <div class="flex-container">
+                    <div class="first_flex-container">
+                        <label for="fname">First Name:</label>
+                        <span class="asterik">*</span>
+                        <input type="text" id="fname" name="firstname" value="" required>
+                    </div>
+                    <div class="last_flex-container">
+                        <label for="lname">Last Name:</label>
+                        <span class="asterik">*</span>
+                        <input type="text" id="lname" name="lastname" required>
+                    </div>
+
+                </div>
+                <div class="first_flex-container_street">
+                    <label for="streetname">Street Address: </label>
+                    <input type="text" id="streetname" name="Street Address:">
+                </div>
+
+
+                <div class="flex-container">
+                    <div class="first_flex-container">
+                        <label for="city">CITY:</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div class="first_flex-container">
+                        <label for="zip">ZIPCODE:</label>
+                        <input type="text" id="zip" name="zipcode">
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="first_flex-container_two_new">
+                <div class="first_flex-container_two">
+                    <label for="birthday">Birth Date (mm/dd/yyyy):</label>
+                    <span class="asterik">*</span>
+                    <input type="date" id="birthday" name="birthday" required>
+                </div>
+
+
+                <div>
+                    <label>Gender: </label>
+
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male </label>
+
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female </label>
+                </div>
+            </div>
+
+
+            <div class="flex-container_1">
+
+                <label>Grade:</label>
+                <input type="checkbox">
+
+                <label>Pre-School </label>
+                <input type="checkbox">
+                <label>1st </label>
+                <input type="checkbox">
+                <label>2nd </label>
+                <input type="checkbox">
+                <label>3rd </label>
+                <input type="checkbox">
+                <label>4th </label>
+                <input type="checkbox">
+                <label>5th </label>
+
+            </div>
+
+
+            <div class="flex-container">
+                <div class="first_flex-container">
+                    <label for="contact">Contact:</label>
+                    <span class="asterik">*</span>
+                    <input type="text" id="contact" name="Contact" required>
+                </div>
+                <div class="last_flex-container">
+                    <label for="email">Email:</label>
+                    <span class="asterik">*</span>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+            </div>
+
+            <div class="questions">
+                <h3>Which elementary schools do you live near?</h3>
+            </div>
+            <div id="schools">
+
+                <div class="mainflexschools">
+                    <div id="first_schools">
+
+                        <div class="questions leftmargins">
+                            <label>First Closest school:</label>
+                        </div>
+
+                        <div class="wrapper">
+                            <div class="left_box">
+                                <div>
+                                    <input type="checkbox">
+                                    <label>AJ Katzenmaier</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Marjorie P Hart</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Greenbay</label>
+                                </div>
+                            </div>
+                            <div class="right_box">
+                                <div>
+                                    <input type="checkbox">
+                                    <label>North Elementary</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Howard A Yeager</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>South Elementary</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second_schools">
+                        <div class="questions leftmargins">
+                            <label>Second Closest school:</label>
+                        </div>
+
+
+
+                        <div class="wrapper">
+                            <div class="left_box">
+                                <div>
+                                    <input type="checkbox">
+                                    <label>AJ Katzenmaier</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Marjorie P Hart</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Greenbay</label>
+                                </div>
+                            </div>
+                            <div class="right_box">
+                                <div>
+                                    <input type="checkbox">
+                                    <label>North Elementary</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Howard A Yeager</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>South Elementary</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="questions">
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
+            </div>
+            <div id="positions_normal">
+                <div class="alignment">
+                    <div class="reverse">
+                        <div>
+                            <input type="checkbox">
+                            <label>Forward</label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label>Defence</label>
+                        </div>
+                    </div>
+
+                    <div class="reverse reverse2">
+                        <div>
+                            <input type="checkbox">
+                            <label>Midfielder</label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label>Goalkeeper</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="questions">
+                <input type="checkbox">
+                <label class="textbold">Already Have a Uniform</label>
+            </div>
+
+
+
+            <div id="schools1">
+
+
+                <div class="mainflexschools">
+                    <div id="first_schools1">
+                        <div class="questions leftmargins">
+                            <label>Jersey Size:</label>
+                        </div>
+                        <div class="wrapper">
+                            <div class="left_box">
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Youth Small</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Youth Medium</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Youth Large</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Small</label>
+                                </div>
+                            </div>
+                            <div class="right_box">
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Medium</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>large</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Extra Large</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second_schools">
+                        <div class="questions leftmargins">
+                            <label>Short size:</label>
+                        </div>
+                        <div class="wrapper">
+                            <div class="left_box">
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Youth Small</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Youth Medium</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Youth Large</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Small</label>
+                                </div>
+                            </div>
+                            <div class="right_box">
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Medium</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>large</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label>Extra Large</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="questions">
+                <h3>Permission to Play</h3>
+            </div>
+            <div class="questions">
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                    Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                    accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                    employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                    on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                    sponsored activities, which transportation.</p>
+                <p>
+                    By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                    cancellation policy and agree to its terms.
+                </p>
+            </div>
+
+            <div class="flex-container">
+                <div class="first_flex-container">
+                    <label for="sign">Parent/Guardian Signature:</label>
+                    <span class="asterik">*</span>
+                    <input type="text" id="sign" name="Signature" required>
+                </div>
+                <div class="last_flex-container">
+                    <label for="date">Date:</label>
+                    <span class="asterik">*</span>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+            </div>
+            <div class="submit">
+                <button class="button button1">Submit</button>
+            </div>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

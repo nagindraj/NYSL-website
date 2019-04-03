@@ -1,0 +1,732 @@
+/*
+#boder{
+    
+    max-width: 1300px;
+    width: 99%;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+*/
+
+
+header {
+    position: relative;
+    margin-top: 0px;
+}
+
+.header_image {
+    background-image: url(../boy-facebook-covers-33758112-1920-1080.jpg);
+    background-size: 100% 100%;
+    width: 99%;
+    height: 400px;
+    background-repeat: no-repeat;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 10px;
+    align-items: center;
+    color: red;
+    left: 80px;
+
+}
+
+.logo {
+    height: 30%;
+    width: 20%;
+    right: 6%;
+    bottom: 1px;
+    position: relative;
+    float: top;
+    bottom: 212px;
+    left: 10px;
+    background-size: 100% 100%;
+
+}
+
+.overlaylogo {
+    margin: 0%;
+    background-color: #17afaf;
+    width: 99%;
+    text-align: center;
+    text-decoration-color: chartreuse;
+    padding: 0px;
+    border: 1px;
+    border-color: #204545;
+    margin-top: 1px;
+    height: 30px;
+
+}
+
+
+
+.left-column {
+    bottom: 20%;
+    position: absolute;
+    right: 1.5%;
+}
+
+
+}
+
+
+
+/*
+ Game Info styles
+-------------------------------------
+------------------------------------
+*/
+#gameinfo_body {
+
+    margin-left: 50px;
+}
+
+
+
+.gameinfo_header {
+
+    text-align: center
+}
+
+.gameinfo_schedule {
+
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.gameinfo_disclaimer font-size: 18px;
+margin-top: 0px;
+margin-left: 20px;
+}
+
+.gameinfo_details {
+
+    border-spacing: 20px 0;
+    margin-left: 50px;
+}
+
+.gameinfo_details_header_cell {
+
+    text-decoration: underline;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.gameinfo_dates {
+
+    text-align: center;
+}
+
+.gameinfo_details_cell_1 {
+
+    margin: 0px;
+}
+
+.gameinfo_details_cell_2 {
+
+    margin: 0px 0px 0px 24px;
+}
+
+.gameinfo_details_cell_3 {
+
+    margin: 0px 0px 0px 51px;
+}
+
+.gameinfo_details_cell_4 {
+
+    margin: 0px 0px 0px 15px;
+}
+
+.gamelocations_right {
+
+    margin-left: 50px;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+.game_locations {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.game_locations tr th {
+
+    text-align: left;
+}
+
+.gameinfo_facility {
+    margin-top: 50px;
+}
+
+
+
+.leftspangameinfo_facility {
+
+    margin-left: 150px;
+}
+
+.email_right_span {
+
+    margin-left: 150px;
+}
+
+
+.alignment {
+
+    display:flex;
+}
+
+.gameinfo_details_table1 {
+    
+    
+}
+
+.gameinfo_details_header_cell_october {
+    margin-left: 42px;
+}
+
+.heading_gameinfo {
+    text-align: center;
+}
+
+.gameinfo_details_cell_text_align {
+
+    text-align: left;
+}
+
+
+.body_alignment {
+    margin-left: 20px;
+}
+
+
+
+.about_tab_spacing {
+    margin-right: 10px;
+    border-color: aquamarine;
+
+}
+
+
+
+.tabs_contact {
+    margin-top: 5px;
+}
+
+.tabs_home_about {
+
+    padding-top: 1px;
+}
+
+.Rules_header {
+    text-align: center;
+    margin-left: 12%;
+}
+
+.Rules_Sideheading {
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
+
+.rule_text_spacing {
+
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.rulesindetail h3 {
+    margin-top: 0px;
+}
+
+.spacing {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bold {
+
+    font-weight: bold;
+
+}
+
+.list_elements_spacing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tab_text {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.Rules_header_h1 {
+    padding-left: 0px;
+    padding-right: 150px;
+}
+
+.Rules_header_h4 {
+    padding-right: 150px;
+}
+
+/* 
+-------------------------------------
+Registration form:
+-------------------------------------
+*/
+
+/*
+
+.registration_header {
+    text-align: center;
+}
+*/
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-top: 15px;
+    
+   
+
+}
+
+.flex-container > span {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+.container_registration_header {
+    text-align: center;
+}
+
+.flex-container_address {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: ROW;
+
+
+
+}
+
+.flex-container_street {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first_flex-container {
+    width: 40%
+}
+
+.last_flex-container {
+    width: 40%;
+}
+
+
+.bday_alignment {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bday_alignment_width {
+    width: 40%;
+}
+
+.first_flex-container_street {
+    margin: 15px 0px 10px 70px;
+}
+
+#streetname {
+    border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#fname {
+    border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#lname {
+    border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#Birthday {
+    border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 45%;
+
+}
+
+.first_flex-container_gender {
+    display: flex;
+    flex-direction: column;
+}
+
+.first_flex-container_two {
+    display: flex;
+    flex-direction: row;
+    padding-left: 64px;
+    width: 50%;
+}
+
+.first_flex-container_two_new {
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-left: 6px;
+}
+
+.first_flex-container_two_bday {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    display: flex;
+
+}
+
+.first_flex-container_city {}
+
+.flex-container_1 {
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#schools {
+    margin-left: 65px;
+}
+
+.checkbox_left {
+    margin-left: 56px;
+}
+
+.right_checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    flex-grow: 5;
+
+
+}
+
+.secondwrapper {
+    display: flex;
+
+
+
+}
+
+.mainbox {
+    display: flex;
+}
+
+.mainright {
+    flex: 1;
+}
+
+.mainbox1 {
+    display: flex;
+
+}
+
+.alignment_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mainflexschools {
+    display: flex;
+    flex-direction: row;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: column;
+    flex:1
+}
+
+.reverse2 {}
+#first_schools {
+    flex-direction: column;
+    flex:1;
+}
+
+.second_schools {
+    flex-direction: column;
+    flex:1
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+#positions_normal {
+    margin-left:65px;
+}
+
+.questions {
+    margin-left: 65px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.leftmargins {
+    margin-left: 0px;
+}
+
+form {
+    margin-bottom: 25px;
+    
+}
+
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+    display: flex;
+    align-items: center;
+    --margin-left: 65px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.submit {
+     margin-left: 65px;
+    margin-top: 15px;
+}
+
+#menubar {
+   display: flex;
+    align-items: flex-end;
+    
+}
+
+#total_page_width {
+    background-color: ;
+    border: 1px;
+}
+
+.gameinfo_resize {
+    margin-top: 20px;
+}
+
+.home_resize {
+    margin-top: 1px;
+}
+
+.contacts_resize {
+    margin-top: 5px;
+}
+
+.about_tab {
+    
+}
+
+.about_tab_1 {
+    display: flex;
+    margin-top: 121px;
+}
+
+#marginforregistration {
+    
+    height: 30%;
+}
+
+.home_alignment {
+    margin-left: 20px;
+    
+}
+
+.reg_alignment {
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+#cname {
+    border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#zip {
+    border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#contact {
+    border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#Email {
+       border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#schools1 {
+    margin-left: 65px;
+}
+
+#first_schools1 {
+     flex-direction: column;
+    flex:1;
+}
+
+#second_schools1 {
+    flex-direction: column;
+    flex:1
+}
+
+body.coloring {
+    background-color:beige;
+}
+
+.nysl_fall {
+        border: black;
+    border-style: groove;
+}
+
+
+.gameinfo_disclaimer {
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+.left-column {
+    
+}
+
+.rules_body {
+    width:75%;
+    margin: auto;
+}
+
+.color {
+    background: cadetblue;
+}
+
+.game_locations_col {
+    padding-left: 100px;
+}
+
+.right-column {
+    
+}
+
+.main_gameinfo {
+    display: flex;
+}
+
+.maps {
+    margin-top:8%;
+    margin-left: 0%;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.list-style-circle {
+    list-style: circle;
+}
+
+.textbold {
+    font-weight: bold;
+}
+
+.asterik {
+    color:red;
+}
+
+
+.contact_main {
+    text-align: center;
+}
+
+.right_box {
+    margin-left: 30px;
+}
+
+#city {
+     border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#email {
+     border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+#sign {
+    border: none;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    width: 64%;
+}
+
+.bold_gameinfo {
+    font-weight: bold;
+}
+
+.alignheaders {
+    margin-top: 1px;
+}

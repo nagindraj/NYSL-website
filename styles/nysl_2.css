@@ -1,0 +1,98 @@
+body{
+    height: 100%;
+}
+
+.header_image{
+    background-image: url(../design2_image1.jpeg);
+    background-size: 100%;
+    width: 100%;
+    margin: auto;
+    height: 402px;
+    margin-top: 3%;
+    background-repeat: no-repeat;
+    
+}
+
+.overlay{
+    margin-top: 1px;
+    position: relative;
+    bottom: 445px;
+    /* margin: 1%; */
+    margin-bottom: 1px;
+}
+
+.logo {
+    
+    position: relative;
+    height: 16%;
+    width: 28%;
+    right: 76%;
+    top: 67%;
+    left: 34px;
+    
+    
+}
+
+.overlaylogo
+{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+    background-color: brown;
+    
+}
+
+.nav {
+    display: inline;
+    
+}
+
+.middletext{
+        background: black;
+    text-decoration: none;
+    color: white;
+}
+.left-column{
+    width: 30%;
+    position: relative;
+    left: 10px;
+    column-span: all;
+    float: top;
+        position: relative;
+    bottom: 578px;
+    float: right;
+    display: inline;
+    
+    
+}
+.about_tab{
+    position: relative;
+    bottom: 57px;
+}
+.text_underline{
+    border: 1px solid white;
+    background: blue;
+    padding: 10px;
+    text-align: center;
+    color: black;
+
+    
+}
+.right-column{
+    width: 65%;
+    position: relative;
+    right: 10px;
+    float: right;
+    right: 0px;
+    top: -118px;
+    position: relative;
+    left: 200px;
+    /* bottom: 207px; */
+    /* float: left; */
+    bottom: 1px;
+}
+.color{
+    background-color: green;
+}

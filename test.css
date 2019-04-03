@@ -1,0 +1,30 @@
+---------------------------------------------
+--Header
+---------------------------------------------
+header{
+    margin-top: 5%;
+}
+
+.header_image{
+    background-image: url(design1_image1.jpeg) ;
+    background-size: 100%;
+    width: 98%;
+    margin: auto;
+    height: 402px;
+    margin-top: 3%;
+    background-repeat: no-repeat;
+    
+}
+.textoverlay{
+    margin-top: 1%;
+    background-image:
+}
+
+.middle_line{
+    background: black;
+    width: 98%;
+    margin: auto;
+    text-decoration-color: white;
+    
+}
+
